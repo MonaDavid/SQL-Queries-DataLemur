@@ -22,7 +22,7 @@ tweet_bucket	users_num
 Explanation:
 Based on the example output, there are two users who posted only one tweet in 2022, and one user who posted two tweets in 2022. The query groups the users by the number of tweets they posted and displays the number of users in each group.
 
-The dataset you are querying against may have different input & output - this is just an example!
+
 
 Solution:
 Select a.tweet_bucket , count(a.user_id)  as user_num
